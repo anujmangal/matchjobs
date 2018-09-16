@@ -13,7 +13,7 @@ mvn clean install
 java -jar target\match-jobs-1.0-SNAPSHOT.jar
 
 # API Docs
-### GET /matchjobs/{workerId}
+### GET /jobs/search/{workerId}
 This REST API will return a list of matching jobs for the given worker
 
 # Testing
